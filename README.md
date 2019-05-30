@@ -1,27 +1,22 @@
 # api-communication-sample
 
-Este projeto foi idealizado para ser um exemplo de comunicação com a API da Greenmile.
+This application was made in ReactJS with Cordova and it's purpose is to demonstrate communication between client-side and GM API
 
-A primeira tela é uma tela de login onde é solicitado qual o servidor que se deseja comunicar, um usuário e uma senha.
+The first screen is the login one, where you should provide valid  server, username and password.
 
-Estando todos esses dados corretos, o usuário é direcionado para uma tela que lista todas as organizações daquele servidor.
+After that the user is prompted to a screen that list all the organizations of the server.
 
-São basicamente duas chamadas para a API: a chamada inicial (POST) de autenticação do usuário e a chamada para o endpoint de organização (GET).
+There are basically two API calls: the initial auhtentication (POST) and the one to the organization endpoint (GET).
 
-# Tecnologias Utilizadas:
-
-* Axios
-* React Material
-
-# Passos para rodar a aplicação:
+# Steps to run:
 
 * App React JS:
-  * Clonar repositório
+  * Clone repository
   * yarn install
   * yarn start
 
 * Android APP:
-  * Clonar repositório
+  * Clone repositório
   * cordova platform add android
   * cordova build android
   * cordova run android
